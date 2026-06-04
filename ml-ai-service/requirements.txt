@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+scikit-learn
+pandas
+numpy
+langchain
+langchain-openai
+langchain-groq
+python-dotenv
+joblib
+pydantic

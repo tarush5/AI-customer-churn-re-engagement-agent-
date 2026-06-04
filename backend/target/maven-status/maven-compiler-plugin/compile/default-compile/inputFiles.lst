@@ -1,0 +1,17 @@
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\config\CorsConfig.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\config\WebClientConfig.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\controller\CampaignController.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\controller\CustomerController.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\dto\CampaignGenerateRequest.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\dto\CampaignGenerateResponse.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\dto\ChurnPredictionRequest.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\dto\ChurnPredictionResponse.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\dto\DashboardStats.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\model\CampaignLog.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\model\Customer.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\repository\CampaignLogRepository.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\repository\CustomerRepository.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\RetainIqApplication.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\service\CampaignService.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\service\ChurnService.java
+C:\Users\Asus\OneDrive\Desktop\summer\xeno\backend\src\main\java\com\retainiq\service\CustomerService.java

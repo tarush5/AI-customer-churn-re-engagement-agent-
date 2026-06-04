@@ -1,0 +1,96 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start ML/AI Service",
+            "type": "shell",
+            "command": "python -m uvicorn app.main:app --reload --port 8000",
+            "options": {
+                "cwd": "${workspaceFolder}/ml-ai-service"
+            },
+            "isBackground": true,
+            "problemMatcher": {
+                "pattern": [
+                    {
+                        "regexp": ".",
+                        "file": 1,
+                        "location": 2,
+                        "message": 3
+                    }
+                ],
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*Starting server process.*",
+                    "endsPattern": ".*Application startup complete.*"
+                }
+            },
+            "presentation": {
+                "group": "retainiq"
+            }
+        },
+        {
+            "label": "Start Backend Service",
+            "type": "shell",
+            "command": ".\\maven\\apache-maven-3.9.6\\bin\\mvn.cmd spring-boot:run",
+            "options": {
+                "cwd": "${workspaceFolder}/backend"
+            },
+            "isBackground": true,
+            "problemMatcher": {
+                "pattern": [
+                    {
+                        "regexp": ".",
+                        "file": 1,
+                        "location": 2,
+                        "message": 3
+                    }
+                ],
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*Starting RetainIqApplication.*",
+                    "endsPattern": ".*Started RetainIqApplication.*"
+                }
+            },
+            "presentation": {
+                "group": "retainiq"
+            }
+        },
+        {
+            "label": "Start React Dashboard",
+            "type": "shell",
+            "command": "npm run dev",
+            "options": {
+                "cwd": "${workspaceFolder}/dashboard"
+            },
+            "isBackground": true,
+            "problemMatcher": {
+                "pattern": [
+                    {
+                        "regexp": ".",
+                        "file": 1,
+                        "location": 2,
+                        "message": 3
+                    }
+                ],
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*VITE.*",
+                    "endsPattern": ".*ready in.*"
+                }
+            },
+            "presentation": {
+                "group": "retainiq"
+            }
+        },
+        {
+            "label": "Run RetainIQ (All Services)",
+            "dependsOn": [
+                "Start ML/AI Service",
+                "Start Backend Service",
+                "Start React Dashboard"
+            ],
+            "dependsOrder": "parallel",
+            "problemMatcher": []
+        }
+    ]
+}

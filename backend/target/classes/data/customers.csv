@@ -1,0 +1,21 @@
+customerId,name,email,phone,age,recency,frequency,monetary,loyaltyPoints,lastPurchaseDate,signupDate,preferredChannel
+CUST001,Aarav Sharma,aarav.sharma@gmail.com,+91-9876543210,28,5,12,15600.50,2400,2025-11-28,2023-01-15,email
+CUST002,Priya Patel,priya.patel@yahoo.com,+91-9876543211,34,45,3,4200.00,600,2025-10-18,2022-06-20,sms
+CUST003,Rahul Verma,rahul.verma@outlook.com,+91-9876543212,42,90,1,1800.75,150,2025-09-03,2021-11-10,email
+CUST004,Sneha Iyer,sneha.iyer@gmail.com,+91-9876543213,25,2,18,22400.00,3800,2025-12-01,2023-03-05,push
+CUST005,Vikram Singh,vikram.singh@hotmail.com,+91-9876543214,38,60,2,3100.50,350,2025-10-03,2022-01-22,email
+CUST006,Ananya Desai,ananya.desai@gmail.com,+91-9876543215,31,15,8,11200.00,1800,2025-11-18,2022-09-14,sms
+CUST007,Karthik Nair,karthik.nair@yahoo.com,+91-9876543216,29,120,1,950.00,80,2025-08-05,2024-02-28,email
+CUST008,Meera Reddy,meera.reddy@gmail.com,+91-9876543217,36,8,10,13500.25,2100,2025-11-25,2022-04-18,push
+CUST009,Arjun Gupta,arjun.gupta@outlook.com,+91-9876543218,45,75,2,2800.00,300,2025-09-19,2021-08-30,sms
+CUST010,Divya Menon,divya.menon@gmail.com,+91-9876543219,27,3,15,18900.00,3200,2025-11-30,2023-05-12,email
+CUST011,Rohan Joshi,rohan.joshi@yahoo.com,+91-9876543220,33,180,0,0.00,50,2025-06-05,2024-01-10,email
+CUST012,Kavitha Krishnan,kavitha.k@gmail.com,+91-9876543221,40,10,9,12300.75,1950,2025-11-23,2022-07-25,push
+CUST013,Siddharth Rao,sid.rao@hotmail.com,+91-9876543222,26,30,5,7500.00,1100,2025-11-03,2023-08-19,sms
+CUST014,Nisha Kapoor,nisha.kapoor@gmail.com,+91-9876543223,52,95,1,1200.50,100,2025-08-30,2021-03-14,email
+CUST015,Aditya Malhotra,aditya.m@outlook.com,+91-9876543224,30,7,11,14800.00,2300,2025-11-26,2022-11-02,push
+CUST016,Pooja Bhatt,pooja.bhatt@gmail.com,+91-9876543225,35,50,3,4600.25,550,2025-10-14,2023-02-08,email
+CUST017,Suresh Kumar,suresh.k@yahoo.com,+91-9876543226,48,110,1,800.00,60,2025-08-15,2024-04-20,sms
+CUST018,Lakshmi Sundaram,lakshmi.s@gmail.com,+91-9876543227,22,1,20,26500.00,4500,2025-12-02,2023-06-30,push
+CUST019,Deepak Choudhary,deepak.c@hotmail.com,+91-9876543228,39,65,2,3400.00,400,2025-09-30,2022-12-15,email
+CUST020,Ritu Agarwal,ritu.agarwal@gmail.com,+91-9876543229,44,85,1,1500.00,120,2025-09-10,2021-05-22,sms
