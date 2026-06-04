@@ -64,23 +64,6 @@ npm run dev
 
 ---
 
-## ☁️ Deployment Guide
-
-The application is pre-configured to read from Environment Variables for cloud deployment.
-
-### 1. Deploy ML/AI Service (Render / Railway)
-- Deploy the `ml-ai-service` directory as a Python Web Service.
-- Set Build Command: `pip install -r requirements.txt`
-- Set Start Command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-- *Add `GROQ_API_KEY` to environment variables.*
-
-### 2. Deploy Java Backend (Render / Railway)
-- Deploy the `backend` directory as a Java application.
-- *Set `ML_SERVICE_URL` to the public URL of your deployed Python service.*
-
-### 3. Deploy React Dashboard (Vercel / Netlify)
-- Deploy the `dashboard` directory as a Vite app.
-- *Set `VITE_API_BASE_URL` to the public URL of your deployed Java backend (append `/api`).*
 
 ---
 
